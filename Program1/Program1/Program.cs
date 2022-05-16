@@ -99,7 +99,7 @@ namespace Program1
             //ObliczCiag();
 
             Pingwin pingwinAdolf = new Pingwin();
-            Pingwin pingiwnJaroslaw = new Pingwin("",4, 0, 2);
+            Pingwin pingiwnJaroslaw = new Pingwin("", 4, 0, 2);
 
             pingiwnJaroslaw.ShowMeWhatYouGot();
             pingwinAdolf.ShowMeWhatYouGot();
@@ -107,7 +107,7 @@ namespace Program1
             pingiwnJaroslaw.Dance();
             pingwinAdolf.Dance();
 
-            
+
 
         }
 
@@ -134,11 +134,12 @@ namespace Program1
         static double LiczElementCiagu(double a1, int index, double d)
         {
             return a1 + (index - 1) * d;
-        } 
-
+        }
+        
     }
-
-
+   
+    
+   
 
     public class User
     {
@@ -235,5 +236,9 @@ namespace Program1
             }
         }
 
+    }
+    public class Cylinder
+    {
+     static void Main()          
     }
 }
